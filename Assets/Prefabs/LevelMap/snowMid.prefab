@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4055239267994524}
   - component: {fileID: 212961462906314718}
-  - component: {fileID: 65148014875289520}
   m_Layer: 0
   m_Name: snowMid
   m_TagString: Untagged
@@ -41,18 +40,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65148014875289520
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1209137567080052}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.28, y: 1.28, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &212961462906314718
 SpriteRenderer:
   m_ObjectHideFlags: 1

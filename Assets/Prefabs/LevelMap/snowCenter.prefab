@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4006757771553974}
   - component: {fileID: 212917311371377830}
-  - component: {fileID: 65216103381457490}
   m_Layer: 0
   m_Name: snowCenter
   m_TagString: Untagged
@@ -36,23 +35,11 @@ Transform:
   m_GameObject: {fileID: 1479728824275066}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10.1500225, y: 6.209982, z: 0.13476562}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65216103381457490
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1479728824275066}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.28, y: 1.28, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &212917311371377830
 SpriteRenderer:
   m_ObjectHideFlags: 1
