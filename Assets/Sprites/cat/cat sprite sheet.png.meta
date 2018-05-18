@@ -135,12 +135,12 @@ TextureImporter:
       name: cat sprite sheet_13
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 1191
-        width: 127
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1109.1676
+        y: 1184.7803
+        width: 135.25769
+        height: 272.66052
+      alignment: 9
+      pivot: {x: 0.512594, y: 0.49409327}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: cat sprite sheet_15
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 1156
-        width: 135
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1276.7565
+        y: 1150.1875
+        width: 143.25806
+        height: 299.25525
+      alignment: 9
+      pivot: {x: 0.5007993, y: 0.5006178}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: cat sprite sheet_16
       rect:
         serializedVersion: 2
-        x: 1454
-        y: 1117
-        width: 460
-        height: 342
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1447.7599
+        y: 1111.1669
+        width: 471.20325
+        height: 352.3888
+      alignment: 9
+      pivot: {x: 0.501355, y: 0.5018126}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: cat sprite sheet_17
       rect:
         serializedVersion: 2
-        x: 1984
-        y: 1159
-        width: 250
-        height: 183
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1978.9016
+        y: 1154
+        width: 260.26538
+        height: 191.54016
+      alignment: 9
+      pivot: {x: 0.49986818, y: 0.5038108}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: cat sprite sheet_18
       rect:
         serializedVersion: 2
-        x: 2291
-        y: 957
-        width: 352
-        height: 429
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2285.0044
+        y: 949.1228
+        width: 364.32397
+        height: 441.979
+      alignment: 9
+      pivot: {x: 0.49954262, y: 0.50314}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: cat sprite sheet_19
       rect:
         serializedVersion: 2
-        x: 2698
-        y: 1038
-        width: 326
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2692.6401
+        y: 1033.1979
+        width: 338.1521
+        height: 306.55176
+      alignment: 9
+      pivot: {x: 0.49788204, y: 0.5212888}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: cat sprite sheet_20
       rect:
         serializedVersion: 2
-        x: 1101
-        y: 866
-        width: 101
-        height: 249
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1096.1008
+        y: 862.2386
+        width: 110.32068
+        height: 257.17987
+      alignment: 9
+      pivot: {x: 0.50216484, y: 0.4987226}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -295,12 +295,12 @@ TextureImporter:
       name: cat sprite sheet_21
       rect:
         serializedVersion: 2
-        x: 1330
-        y: 874
-        width: 99
-        height: 249
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1324.5745
+        y: 868.5992
+        width: 109.943726
+        height: 261.07794
+      alignment: 9
+      pivot: {x: 0.49957865, y: 0.4975557}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,12 +315,12 @@ TextureImporter:
       name: cat sprite sheet_22
       rect:
         serializedVersion: 2
-        x: 1570
-        y: 818
-        width: 159
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1564.1082
+        y: 812.99994
+        width: 169.68445
+        height: 256.48102
+      alignment: 9
+      pivot: {x: 0.5032391, y: 0.4971128}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: cat sprite sheet_23
       rect:
         serializedVersion: 2
-        x: 1904
-        y: 823
-        width: 158
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1898.0819
+        y: 818
+        width: 170.88489
+        height: 256.58203
+      alignment: 9
+      pivot: {x: 0.49693084, y: 0.49691737}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,12 +355,12 @@ TextureImporter:
       name: cat sprite sheet_24
       rect:
         serializedVersion: 2
-        x: 3091
-        y: 1047
-        width: 268
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3083.7622
+        y: 1040.2924
+        width: 280.81543
+        height: 255.60303
+      alignment: 9
+      pivot: {x: 0.5029568, y: 0.5055012}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,12 +375,12 @@ TextureImporter:
       name: cat sprite sheet_25
       rect:
         serializedVersion: 2
-        x: 1109
-        y: 641
-        width: 85
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1105.1532
+        y: 635.24335
+        width: 93.70264
+        height: 222.0755
+      alignment: 9
+      pivot: {x: 0.49461576, y: 0.5032375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -395,12 +395,12 @@ TextureImporter:
       name: cat sprite sheet_26
       rect:
         serializedVersion: 2
-        x: 1336
-        y: 639
-        width: 86
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1331.2421
+        y: 634
+        width: 96.94287
+        height: 222.94385
+      alignment: 9
+      pivot: {x: 0.49264, y: 0.49788293}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,12 +415,12 @@ TextureImporter:
       name: cat sprite sheet_27
       rect:
         serializedVersion: 2
-        x: 2786
-        y: 816
-        width: 98
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2780.2446
+        y: 809.978
+        width: 108.56177
+        height: 137.23785
+      alignment: 9
+      pivot: {x: 0.5043706, y: 0.51022345}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: cat sprite sheet_28
       rect:
         serializedVersion: 2
-        x: 1608
-        y: 568
-        width: 129
-        height: 230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1600.8627
+        y: 560.1229
+        width: 142.22693
+        height: 244.7066
+      alignment: 9
+      pivot: {x: 0.50368243, y: 0.50214046}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -455,12 +455,12 @@ TextureImporter:
       name: cat sprite sheet_29
       rect:
         serializedVersion: 2
-        x: 1942
-        y: 563
-        width: 130
-        height: 230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1937.4218
+        y: 558
+        width: 140.00793
+        height: 240.18536
+      alignment: 9
+      pivot: {x: 0.49695846, y: 0.49961412}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -475,12 +475,12 @@ TextureImporter:
       name: cat sprite sheet_30
       rect:
         serializedVersion: 2
-        x: 2711
-        y: 657
-        width: 86
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2705.844
+        y: 653.0183
+        width: 98.82886
+        height: 141.8274
+      alignment: 9
+      pivot: {x: 0.48726666, y: 0.5004794}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,12 +495,12 @@ TextureImporter:
       name: cat sprite sheet_31
       rect:
         serializedVersion: 2
-        x: 1114
-        y: 568
-        width: 71
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1111.3033
+        y: 563.53516
+        width: 78.51294
+        height: 74.112976
+      alignment: 9
+      pivot: {x: 0.48649988, y: 0.49201784}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -515,12 +515,12 @@ TextureImporter:
       name: cat sprite sheet_32
       rect:
         serializedVersion: 2
-        x: 1343
-        y: 556
-        width: 71
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1337.4164
+        y: 550.99994
+        width: 81.27124
+        height: 76.07367
+      alignment: 9
+      pivot: {x: 0.50551236, y: 0.4995166}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -535,12 +535,12 @@ TextureImporter:
       name: cat sprite sheet_33
       rect:
         serializedVersion: 2
-        x: 2665
-        y: 488
-        width: 73
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2659.3286
+        y: 481.97446
+        width: 83.58008
+        height: 145.91513
+      alignment: 9
+      pivot: {x: 0.5045627, y: 0.50046587}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -555,12 +555,12 @@ TextureImporter:
       name: cat sprite sheet_34
       rect:
         serializedVersion: 2
-        x: 1659
-        y: 389
-        width: 76
-        height: 157
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1651.8406
+        y: 384
+        width: 90.65283
+        height: 167.96167
+      alignment: 9
+      pivot: {x: 0.4981579, y: 0.49713743}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -575,12 +575,12 @@ TextureImporter:
       name: cat sprite sheet_35
       rect:
         serializedVersion: 2
-        x: 1992
-        y: 384
-        width: 78
-        height: 157
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1986.9471
+        y: 377.3749
+        width: 87.085815
+        height: 166.67831
+      alignment: 9
+      pivot: {x: 0.5058571, y: 0.5107148}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -595,12 +595,12 @@ TextureImporter:
       name: cat sprite sheet_36
       rect:
         serializedVersion: 2
-        x: 2647
-        y: 327
-        width: 77
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2640.8499
+        y: 321.16782
+        width: 88.88867
+        height: 144.06439
+      alignment: 9
+      pivot: {x: 0.50231814, y: 0.5020823}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -615,12 +615,12 @@ TextureImporter:
       name: cat sprite sheet_37
       rect:
         serializedVersion: 2
-        x: 1644
-        y: 298
-        width: 72
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1638.2856
+        y: 291.73236
+        width: 84.55322
+        height: 79.22345
+      alignment: 9
+      pivot: {x: 0.4933488, y: 0.49565676}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -635,12 +635,12 @@ TextureImporter:
       name: cat sprite sheet_38
       rect:
         serializedVersion: 2
-        x: 1979
-        y: 304
-        width: 70
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1973.0234
+        y: 298.18744
+        width: 81.38794
+        height: 76.29834
+      alignment: 9
+      pivot: {x: 0.50347364, y: 0.5021415}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -655,12 +655,12 @@ TextureImporter:
       name: cat sprite sheet_39
       rect:
         serializedVersion: 2
-        x: 2483
-        y: 49
-        width: 107
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2478.9646
+        y: 42.978046
+        width: 117.68823
+        height: 141.32565
+      alignment: 9
+      pivot: {x: 0.48887977, y: 0.49546522}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -675,12 +675,12 @@ TextureImporter:
       name: cat sprite sheet_40
       rect:
         serializedVersion: 2
-        x: 2597
-        y: 163
-        width: 86
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2590.871
+        y: 159.02199
+        width: 97.806885
+        height: 145.91158
+      alignment: 9
+      pivot: {x: 0.50230515, y: 0.4864455}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -700,6 +700,6 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
-  userData: 
+  userData: 636622757772040930
   assetBundleName: 
   assetBundleVariant: 
