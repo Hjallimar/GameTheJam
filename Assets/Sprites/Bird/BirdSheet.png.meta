@@ -49,7 +49,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -111,12 +111,12 @@ TextureImporter:
       name: BirdSheet_1
       rect:
         serializedVersion: 2
-        x: 531.8846
+        x: 542.20166
         y: 691.2948
-        width: 510.30438
-        height: 495.1156
+        width: 492.7931
+        height: 489.96606
       alignment: 9
-      pivot: {x: 0.54385984, y: 0.35609657}
+      pivot: {x: 0.54224986, y: 0.3598391}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: BirdSheet_4
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 471
-        width: 198
-        height: 190
+        x: 999.4517
+        y: 468.41296
+        width: 200.54828
+        height: 194.32489
       alignment: 9
-      pivot: {x: 0.35576776, y: 0.2981619}
+      pivot: {x: 0.36395374, y: 0.30483893}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: BirdSheet_5
       rect:
         serializedVersion: 2
-        x: 19
-        y: 49.000004
-        width: 109
-        height: 71
+        x: 16.80532
+        y: 48.927807
+        width: 111.19467
+        height: 70.032486
       alignment: 9
-      pivot: {x: 0.5045871, y: 0.50704217}
+      pivot: {x: 0.51436526, y: 0.515078}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,6 +216,6 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
-  userData: 636622548129846930
+  userData: 636622615923705622
   assetBundleName: 
   assetBundleVariant: 
