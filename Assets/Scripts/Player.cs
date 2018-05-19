@@ -29,9 +29,9 @@ public class Player : MonoBehaviour
     {
         horizentalDirection = Input.GetAxis("Horizontal");
         transform.Translate(new Vector3(horizentalDirection, 0, 0) * speed * Time.deltaTime, Camera.main.transform);
-
+        anim.SetFloat("vSpeed", rgdb2d.velocity.y);
         grounded = Physics2D.OverlapPoint(groundcheck.position);
-
+        anim.SetBool("grounded", grounded);
         if (grounded && Input.GetKeyDown(KeyCode.W))
         {
             rgdb2d.velocity += new Vector2(rgdb2d.velocity.x, jumpHeight);
