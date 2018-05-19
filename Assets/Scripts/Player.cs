@@ -40,12 +40,12 @@ public class Player : MonoBehaviour
 
         if (horizentalDirection > 0)
         {
-            Flip(-1);
+            Flip(-0.5f);
             anim.SetFloat("speed", 1);
         }
         else if (horizentalDirection < 0)
         {
-            Flip(1);
+            Flip(0.5f);
             anim.SetFloat("speed", 1);
         }
         else
@@ -54,7 +54,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Flip(int facingRight)
+    private void Flip(float facingRight)
     {
         Vector3 myScale = transform.localScale;
         myScale.x = facingRight;
