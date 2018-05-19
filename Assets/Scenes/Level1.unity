@@ -20075,6 +20075,21 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: -0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114281622067565956, guid: 47bcecf985549a144814c8b3fc3e2c51,
+        type: 2}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114281622067565956, guid: 47bcecf985549a144814c8b3fc3e2c51,
+        type: 2}
+      propertyPath: jumpHeight
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114665096929697962, guid: 47bcecf985549a144814c8b3fc3e2c51,
+        type: 2}
+      propertyPath: damageTimer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 47bcecf985549a144814c8b3fc3e2c51, type: 2}
   m_IsPrefabParent: 0
