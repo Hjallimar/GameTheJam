@@ -40,12 +40,12 @@ public class Player : MonoBehaviour
 
         if (horizentalDirection > 0)
         {
-            Flip(-0.5f);
+            Flip(-0.3f);
             anim.SetFloat("speed", 1);
         }
         else if (horizentalDirection < 0)
         {
-            Flip(0.5f);
+            Flip(0.3f);
             anim.SetFloat("speed", 1);
         }
         else
