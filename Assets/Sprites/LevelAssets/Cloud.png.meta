@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-guid: 8212e9e8a12fa9a41a6cc6a75799b40f
+guid: 5f198c95be2ea9945a419f3c4fabe22f
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: cake_0
-    21300002: cake_1
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -40,7 +38,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,64 +67,13 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: cake_0
-      rect:
-        serializedVersion: 2
-        x: 621
-        y: 810
-        width: 1442
-        height: 948
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12a918f65415b8c499ea4fa088b6ce02
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cake_1
-      rect:
-        serializedVersion: 2
-        x: 698
-        y: 163
-        width: 1212
-        height: 560
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 181e6ab207bff2041b823beb6d7eabfb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9dd2d8540a9e3844e806a70ac59be510
+    spriteID: 6a09bcb2cc02a784abffffdf0c3073f4
     vertices: []
     indices: 
     edges: []
