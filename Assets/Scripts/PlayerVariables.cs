@@ -54,7 +54,7 @@ public class PlayerVariables : MonoBehaviour
         }*/
     }
 
-
+    /*
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Coin"))
@@ -62,5 +62,5 @@ public class PlayerVariables : MonoBehaviour
             other.gameObject.SetActive(false);
             //GameController.gameControllerInstance.coins += 1;
         }
-    }
+    }*/
 }

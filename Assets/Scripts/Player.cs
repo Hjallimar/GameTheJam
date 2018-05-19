@@ -41,12 +41,16 @@ public class Player : MonoBehaviour
         if (horizentalDirection > 0)
         {
             Flip(-1);
-            anim.speed = 100;
+            anim.SetFloat("speed", 1);
         }
         else if (horizentalDirection < 0)
         {
             Flip(1);
-            anim.speed = 1;
+            anim.SetFloat("speed", 1);
+        }
+        else
+        {
+            anim.SetFloat("speed", 0);
         }
     }
 
