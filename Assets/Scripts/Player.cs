@@ -40,15 +40,17 @@ public class Player : MonoBehaviour
 
         if (horizentalDirection > 0)
         {
-            Flip(-0.4f);
+            Flip(-1);
+            anim.speed = 100;
         }
         else if (horizentalDirection < 0)
         {
-            Flip(0.4f);
+            Flip(1);
+            anim.speed = 1;
         }
     }
 
-    private void Flip(float facingRight)
+    private void Flip(int facingRight)
     {
         Vector3 myScale = transform.localScale;
         myScale.x = facingRight;
