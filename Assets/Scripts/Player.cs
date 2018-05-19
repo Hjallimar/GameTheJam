@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public float speed = 10.0f;
     public float jumpHeight = 14.0f;
     public Transform groundcheck;
+    public Transform groundcheckFront;
 
     private float horizentalDirection;
     private bool grounded;
@@ -30,7 +31,7 @@ public class Player : MonoBehaviour
         horizentalDirection = Input.GetAxis("Horizontal");
         transform.Translate(new Vector3(horizentalDirection, 0, 0) * speed * Time.deltaTime, Camera.main.transform);
         anim.SetFloat("vSpeed", rgdb2d.velocity.y);
-        grounded = Physics2D.OverlapPoint(groundcheck.position);
+        grounded = Physics2D.OverlapPoint(groundcheck.position) || Physics2D.OverlapPoint(groundcheckFront.position);
         anim.SetBool("grounded", grounded);
         if (grounded && Input.GetKeyDown(KeyCode.W))
         {
