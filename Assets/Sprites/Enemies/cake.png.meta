@@ -87,12 +87,12 @@ TextureImporter:
       name: cake_0
       rect:
         serializedVersion: 2
-        x: 621
-        y: 810
-        width: 1442
-        height: 948
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 618.1208
+        y: 793.5864
+        width: 1455.2039
+        height: 974.5043
+      alignment: 9
+      pivot: {x: 0.4974418, y: 0.50324404}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -107,12 +107,12 @@ TextureImporter:
       name: cake_1
       rect:
         serializedVersion: 2
-        x: 698
-        y: 163
-        width: 1212
-        height: 560
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 692.8297
+        y: 155.99947
+        width: 1228.842
+        height: 575.6617
+      alignment: 9
+      pivot: {x: 0.49735454, y: 0.49855766}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -132,6 +132,6 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
-  userData: 
+  userData: 636624171081267061
   assetBundleName: 
   assetBundleVariant: 
