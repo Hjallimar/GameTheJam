@@ -6,10 +6,9 @@ public class ExplodingEnemy : MonoBehaviour {
 
     public float speed = 7f;
 
+    private Animator anim;
     private Rigidbody2D rb2d;
-    public Transform frontCheck;
     public Transform player;
-    public GameObject explosion;
     private bool grounded = false;
     private float jumpTimer = 0f;
     private bool playerIsNear = false;
@@ -17,11 +16,13 @@ public class ExplodingEnemy : MonoBehaviour {
     // Use this for initialization
     void Start () {
         rb2d = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update () {
         if (playerIsNear) {
+            anim.SetBool("Aggro", true);
             transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
         }
     }
@@ -29,11 +30,6 @@ public class ExplodingEnemy : MonoBehaviour {
     private void Flip () {
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         speed = -speed;
-    }
-
-    private void Explode () {
-        Instantiate(explosion);
-        Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D (Collision2D collision) {
