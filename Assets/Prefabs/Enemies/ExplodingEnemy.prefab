@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114072751541547610}
   - component: {fileID: 60091277424362364}
   - component: {fileID: 58642529509648514}
+  - component: {fileID: 95375909856609064}
   m_Layer: 0
   m_Name: ExplodingEnemy
   m_TagString: Enemy
@@ -68,8 +69,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1899186557500502}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.65, y: -1.947, z: 0}
-  m_LocalScale: {x: 0.17022882, y: 0.17022882, z: 0.17022882}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 4048948873557926}
   m_Father: {fileID: 0}
@@ -109,7 +110,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 12
+  m_Radius: 7.194727
 --- !u!58 &58642529509648514
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -124,7 +125,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 42
+  m_Radius: 81.69973
 --- !u!60 &60091277424362364
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -178,6 +179,24 @@ PolygonCollider2D:
       - {x: -0.13847224, y: -5.8106995}
       - {x: 2.2692652, y: -5.657286}
       - {x: 3.960781, y: -0.45560348}
+--- !u!95 &95375909856609064
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1899186557500502}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: efb9b6b8cc610f2458a7a6bc984fda11, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114072751541547610
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -190,9 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  frontCheck: {fileID: 0}
   player: {fileID: 0}
-  explosion: {fileID: 0}
 --- !u!114 &114867245408187728
 MonoBehaviour:
   m_ObjectHideFlags: 1
