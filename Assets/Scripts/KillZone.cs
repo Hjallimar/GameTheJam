@@ -14,7 +14,9 @@ public class KillZone : MonoBehaviour
         }
         else
         {
-            other.gameObject.SetActive(false);
+            if (!other.gameObject.CompareTag("Enemy")){
+                other.gameObject.SetActive(false);
+            }
         }
     }
 }

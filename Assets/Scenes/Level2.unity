@@ -768,7 +768,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4128330826493790, guid: 59d236b7a1b906045a7f635a10ceb6f9, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 137248478986236776, guid: 59d236b7a1b906045a7f635a10ceb6f9,
         type: 2}
@@ -7053,6 +7053,11 @@ Prefab:
       propertyPath: m_Name
       value: ExplodingEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114072751541547610, guid: 2dd3eff885e571e42b2dc072350b4f4c,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2059498584}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2dd3eff885e571e42b2dc072350b4f4c, type: 2}
   m_IsPrefabParent: 0
@@ -7956,7 +7961,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4628876489745828, guid: 8319802c29994a94a80d8816a4534609, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8319802c29994a94a80d8816a4534609, type: 2}
@@ -15695,7 +15700,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4932064664408886, guid: 47bcecf985549a144814c8b3fc3e2c51, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 137337805889933530, guid: 47bcecf985549a144814c8b3fc3e2c51,
         type: 2}
@@ -20147,6 +20152,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 114072751541547610, guid: 2dd3eff885e571e42b2dc072350b4f4c,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2059498584}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2dd3eff885e571e42b2dc072350b4f4c, type: 2}
   m_IsPrefabParent: 0
@@ -27667,6 +27677,11 @@ Prefab:
       propertyPath: m_Name
       value: ExplodingEnemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114072751541547610, guid: 2dd3eff885e571e42b2dc072350b4f4c,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2059498584}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2dd3eff885e571e42b2dc072350b4f4c, type: 2}
   m_IsPrefabParent: 0
@@ -34841,7 +34856,7 @@ Prefab:
     - target: {fileID: 224804914951371806, guid: a1d5ca16ce45650458f0ba97ada1d939,
         type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 224804914951371806, guid: a1d5ca16ce45650458f0ba97ada1d939,
         type: 2}
@@ -34881,7 +34896,7 @@ Prefab:
     - target: {fileID: 224804914951371806, guid: a1d5ca16ce45650458f0ba97ada1d939,
         type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 224804914951371806, guid: a1d5ca16ce45650458f0ba97ada1d939,
         type: 2}
