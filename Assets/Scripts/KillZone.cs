@@ -5,16 +5,8 @@ using UnityEngine;
 public class KillZone : MonoBehaviour
 {
 
-    bool timer = true;
-
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!timer)
-            return;
-
-        timer = false;
-        Invoke("ResetTimer", 1f);
 
         if (other.gameObject.CompareTag("Player"))
         {
@@ -24,10 +16,5 @@ public class KillZone : MonoBehaviour
         {
             other.gameObject.SetActive(false);
         }
-    }
-
-    void ResetTimer()
-    {
-        timer = true;
     }
 }
