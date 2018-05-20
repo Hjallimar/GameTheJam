@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     private AudioSource myAudioSource;
     private Rigidbody2D rgdb2d;
     private Animator anim;
+    private float scale;
 
 
 
@@ -22,12 +23,14 @@ public class Player : MonoBehaviour
     {
         rgdb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        scale = transform.localScale.x;
         myAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        float direction = horizentalDirection;
         horizentalDirection = Input.GetAxis("Horizontal");
         transform.Translate(new Vector3(horizentalDirection, 0, 0) * speed * Time.deltaTime, Camera.main.transform);
         anim.SetFloat("vSpeed", rgdb2d.velocity.y);
@@ -39,15 +42,20 @@ public class Player : MonoBehaviour
 
         }
 
+
+        Debug.Log(horizentalDirection);
         if (horizentalDirection > 0)
         {
-            Flip(-0.3f);
             anim.SetFloat("speed", 1);
+          
+                flip(scale);
         }
         else if (horizentalDirection < 0)
         {
-            Flip(0.3f);
             anim.SetFloat("speed", 1);
+            
+                flip(-scale);
+            
         }
         else
         {
@@ -55,10 +63,10 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Flip(float facingRight)
+    private void flip(float i)
     {
         Vector3 myScale = transform.localScale;
-        myScale.x = facingRight;
+        myScale.x = i;
         transform.localScale = myScale;
     }
 }
