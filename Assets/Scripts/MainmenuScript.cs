@@ -18,4 +18,9 @@ public class MainmenuScript : MonoBehaviour {
     public void startGame() {
         SceneManager.LoadScene(1);
     }
+
+    public void backToMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
