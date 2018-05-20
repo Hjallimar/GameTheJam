@@ -7,14 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public static GameController gameControllerInstance;
-    //public Text coinText;
-    //public Slider healthSlider;
-    //public float playerHealth;
-    //public Slider bossSlider;
-    //public float bossHealth;
-    //public Text playerLife;
-
-
+    public Text playerLife;
 
     private Quaternion orginalCameraRotation;
 
@@ -25,19 +18,12 @@ public class GameController : MonoBehaviour
     void Start()
     {
         gameControllerInstance = this;
-       //coins = 0;
-        //life = 3;
+        life = 9;
         orginalCameraRotation = Camera.main.transform.rotation;
     }
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 2)
-        {
-           // bossSlider.value = bossHealth;
-        }
-
-       // healthSlider.value = playerHealth;
         //playerLife.text = "x" + life;
 
     }

@@ -17,14 +17,14 @@ public class PlayerVariables : MonoBehaviour
     void Start()
     {
         health = 100;
-        life = 3;
+        life = 9;
         myAudioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
         damageTimer += Time.deltaTime;
-        //GameController.gameControllerInstance.playerHealth = health;
+        GameController.gameControllerInstance.playerLife.text = "x" + life;
     }
 
     public void Harm(float dmg)
@@ -39,6 +39,7 @@ public class PlayerVariables : MonoBehaviour
         if (health < 1)
         {
             Respawn();
+            life--;
         }
     }
 
