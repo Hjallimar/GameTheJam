@@ -3295,7 +3295,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPosition: {fileID: 0}
   damageTimer: 1
-  health: 100
   life: 0
   weaponCheck: 1
 --- !u!114 &114668779574647120
