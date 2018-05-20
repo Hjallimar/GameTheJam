@@ -9,6 +9,7 @@ public class ExplodingEnemy : MonoBehaviour {
     private Rigidbody2D rb2d;
     public Transform frontCheck;
     public Transform player;
+    public GameObject explosion;
     private bool grounded = false;
     private float jumpTimer = 0f;
     private bool playerIsNear = false;
@@ -22,9 +23,6 @@ public class ExplodingEnemy : MonoBehaviour {
     void Update () {
         if (playerIsNear) {
             transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-            if (Physics2D.OverlapPoint(frontCheck.position) && Physics2D.OverlapPoint(frontCheck.position).CompareTag("Player")) {
-                //Explode();
-            }
         }
     }
 
@@ -34,6 +32,7 @@ public class ExplodingEnemy : MonoBehaviour {
     }
 
     private void Explode () {
+        Instantiate(explosion);
         Destroy(gameObject);
     }
 

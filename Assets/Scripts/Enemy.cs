@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour {
         transform.Translate(-speed * Time.deltaTime, 0, 0);
         grounded = Physics2D.OverlapPoint(groundCheck.position);
         //rb2d.AddForce(new Vector2(-speed, 0));
-        if (Physics2D.OverlapPoint(frontCheck.position) && !Physics2D.OverlapPoint(frontCheck.position).CompareTag("Player")) {
+        if (Physics2D.OverlapPoint(frontCheck.position) && !Physics2D.OverlapPoint(frontCheck.position).CompareTag("Player") && !Physics2D.OverlapPoint(frontCheck.position).CompareTag("Enemy") && !Physics2D.OverlapPoint(frontCheck.position).CompareTag("Explosion")) {
             Flip();
         }
         if(jumpTimer >= timeUntilJump && grounded) {
