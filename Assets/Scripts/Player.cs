@@ -30,7 +30,6 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float direction = horizentalDirection;
         horizentalDirection = Input.GetAxis("Horizontal");
         transform.Translate(new Vector3(horizentalDirection, 0, 0) * speed * Time.deltaTime, Camera.main.transform);
         anim.SetFloat("vSpeed", rgdb2d.velocity.y);
@@ -42,8 +41,7 @@ public class Player : MonoBehaviour
 
         }
 
-
-        Debug.Log(horizentalDirection);
+        
         if (horizentalDirection > 0)
         {
             anim.SetFloat("speed", 1);
