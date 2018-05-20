@@ -24,16 +24,9 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        //playerLife.text = "x" + life;
+        playerLife.text = "x" + life;
 
     }
-
-
-/*    public void ScreenShake()
-    {
-        Camera.main.DOShakeRotation(0.2f, 2, 40, 90);
-        Invoke("ResetCameraRotaion", 0.2f);
-    }*/
 
     private void ResetCameraRotaion()
     {

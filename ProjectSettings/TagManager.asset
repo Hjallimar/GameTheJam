@@ -7,6 +7,7 @@ TagManager:
   - Door
   - Enemy
   - Explosion
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -49,4 +50,7 @@ TagManager:
     locked: 0
   - name: HackerCat
     uniqueID: 2375855895
+    locked: 0
+  - name: Cake
+    uniqueID: 1330742661
     locked: 0

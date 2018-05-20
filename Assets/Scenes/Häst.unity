@@ -6756,7 +6756,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPosition: {fileID: 654011201}
   damageTimer: 1
-  health: 100
   life: 0
   weaponCheck: 1
 --- !u!212 &641661401
@@ -12005,6 +12004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cf2aa1c92eaaf54286bba963dcec0bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerLife: {fileID: 0}
   coins: 0
   life: 0
 --- !u!4 &1137031598
@@ -17930,11 +17930,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4674681818457630, guid: 2dd3eff885e571e42b2dc072350b4f4c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 9.65
+      value: 13.19
       objectReference: {fileID: 0}
     - target: {fileID: 4674681818457630, guid: 2dd3eff885e571e42b2dc072350b4f4c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.947
+      value: -0.99
       objectReference: {fileID: 0}
     - target: {fileID: 4674681818457630, guid: 2dd3eff885e571e42b2dc072350b4f4c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -17965,16 +17965,6 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 1562965686}
-    - target: {fileID: 58210434525786754, guid: 2dd3eff885e571e42b2dc072350b4f4c,
-        type: 2}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 58210434525786754, guid: 2dd3eff885e571e42b2dc072350b4f4c,
-        type: 2}
-      propertyPath: m_Radius
-      value: 7.194727
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2dd3eff885e571e42b2dc072350b4f4c, type: 2}
   m_IsPrefabParent: 0
@@ -19806,29 +19796,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &1890252842 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1899186557500502, guid: 2dd3eff885e571e42b2dc072350b4f4c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1721912459}
---- !u!95 &1890252849
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1890252842}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: efb9b6b8cc610f2458a7a6bc984fda11, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1908736606
 GameObject:
   m_ObjectHideFlags: 0
